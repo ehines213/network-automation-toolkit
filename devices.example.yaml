@@ -1,0 +1,13 @@
+
+# Example network device inventory
+# Replace the example IP with your own switch IP.
+
+devices:
+  - hostname: Lab-SW01
+    host: 192.0.2.10
+    device_type: tplink_jetstream
+    username: admin
+    commands:
+      - show system-info
+      - show ip interface brief
+      - show interface status

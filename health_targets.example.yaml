@@ -1,0 +1,13 @@
+
+# Example network monitoring targets
+# Replace these addresses with your real devices.
+
+devices:
+  - hostname: Gateway-Router
+    ip: 192.0.2.1
+
+  - hostname: Core-Switch
+    ip: 192.0.2.10
+
+  - hostname: Server-01
+    ip: 192.0.2.20

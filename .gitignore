@@ -1,0 +1,29 @@
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Private monitoring data
+reports/
+logs/
+state/
+alert-test/
+
+# Real device inventories
+devices.yaml
+health_targets.yaml
+
+# Configuration backups
+switch-backups/
+*.pem
+*.key
+
+# Secrets and credentials
+.env
+.env.*
+ntfy_topic
+
+# Temporary script versions
+*_v1.py
+*_v2.py
